@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    scroll-behavior: smooth;
+}
+
+#home {
+    background-color: #9ECAE1;
+    color: #072F5F;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar .logo {
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 20px;
+    margin-right: 15px;
+    
+}
+
+.cross-menu{
+    display: none;
+    border-radius: 50%;
+    font-size: 18px;
+    padding:5px;
+    background-color: rgb(245, 243, 243);
+    margin-left: 40px;
+    margin-bottom: 50px;  
+}
+
+.navbar .list-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-right: 25px;
+}
+
+
+.navbar .list-items li {
+    list-style: none;
+}
+
+.navbar .list-items li a {
+    text-decoration: none;
+    color: #33386d;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    margin-top: 3%;
+}
+
+.home-left {
+    flex: 1;
+}
+
+.home-left h1 {
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+.home-left h3 {
+    color: #0f3d76;
+    margin-top: 10px;
+}
+
+.apply-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #2f62a1;
+    color: #fff;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.apply-btn:hover{
+    box-shadow: 0 4px 20px #007BFF;
+    transform: scale(1.2);
+}
+
+.home-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image {
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Why mbbs abroad */
+
+#mbbs-abroad {
+    min-height: 100vh;
+    background-color: #9ECAE1;
+    color: #072F5F;
+}
+
+.head-2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10px;
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px #072F5F;
+    transition: all .7s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 7px 20px #072F5F;
+    transform: scale(.8);
+    opacity: 0.7;
+}
+
+.card-image {
+    flex: 1;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+}
+
+/* Top-Countries */
+
+#top-countries {
+    background-color: #9ECAE1;
+    color: #072F5F;
+    min-height: 100vh;
+}
+
+.box{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px #072F5F;
+    transition: all 0.7s ease-in-out;
+}
+
+.box:hover{
+    box-shadow: 0 7px 20px #072F5F;
+    transform: scale(.8);
+    opacity: 0.7;
+}
+
+.box-image{
+    flex: 0.4;
+}
+
+.box-image img{
+    width: 100%;
+}
+
+.box-content{
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Admission process */
+
+#admission{
+    min-height: 100vh;
+    background-color: #9ECAE1;
+    color: #072F5F;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-bottom: 20px;
+}
+
+.holder .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(to right, #E0F7FA, #F5F5F5);
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #2f62a1;
+    padding: 10px;
+}
+
+
+.box-in h3{
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.box-in p{
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.holder .right{
+    box-shadow: 0 4px 16px #2f62a1;
+    padding: 20px 20px 30px;
+    background: linear-gradient(to right, #E0F7FA, #F5F5F5);
+    border-radius: 10px;
+}
+
+.right h3{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #2f62a1;
+    margin-bottom: 30px;
+}
+
+.right h4{
+    margin-bottom: 15px;
+}
+
+.right p{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+/* form css */
+
+.floating-btn{
+    display: none;
+    border: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #007BFF;
+    padding: 12px;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+}
+
+.floating-btn:hover{
+    box-shadow: 0 4px 20px #007BFF;
+    transform: translateY(-15px)
+}
+
+
+.form-container{
+    position: fixed;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #E0F7FA, #F5F5F5);
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    opacity: .9;
+}
+
+.form-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.form-header h3{
+    color:#003366;
+    font-size: 25px;
+}
+
+.form-header #cross-btn{
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    padding: 0 7px;
+}
+
+#cross-btn:hover{
+    background-color: rgb(209, 207, 207);
+}
+
+#admission-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#admission-form label{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#admission-form input,select{
+    padding: 8px;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.submit-btn{
+    margin-top: 18px;
+    padding: 10px;
+    background:#2f62a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+}
+
+.submit-btn:hover{
+    box-shadow: 0 4px 20px #007BFF;
+}
+
+
+.thank-you-msg {
+    position: fixed;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    width: 500px;
+    display:none;
+    font-size: 20px;
+    color: green;
+    font-weight: 500;
+    padding: 10px;
+    background: linear-gradient(to right, #E0F7FA, #F5F5F5);
+    border-radius: 10px;
+    opacity: .9;
+}
+
+/* media-queries */
+
+@media (max-width:650px){
+
+    .holder{
+        padding: 0 40px;
+    }
+
+   .left{
+       min-width: 50%;
+   }
+
+   .right{
+      min-width: 50%;
+   }
+
+   .form-container{
+    width: 80%;
+ } 
+}
+
+@media (max-width:890px){
+    .menu-icon{
+        display: block;
+    }
+    
+    .cross-menu{
+        display: block;
+    }
+
+    #home{
+        position: relative;
+    }
+    
+    .list-items{
+        position: fixed;
+        left: -200%;
+        top: 0;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right, #E0F7FA, #F5F5F5);
+        padding: 20px;
+        min-height: 100vh;
+        opacity: .9;
+    }
+    
+    .list-items li{
+        list-style: none;
+        margin-bottom: 50px;
+        margin-left: 40px;
+    }
+    
+    .list-items li a {
+        text-decoration: none;
+        color: #33386d;
+        font-size: 30px;
+        font-weight: bold;
+    }  
+    
+    .home-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap:80px;
+    }
+
+    .left{
+        min-width: 50%;
+    }
+ 
+    .right{
+       min-width: 50%;
+    }
+
+    .form-container{ 
+       width: 70%;
+    } 
+    
+    .thank-you-msg {
+        width: 80%;
+        font-size: 15px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
